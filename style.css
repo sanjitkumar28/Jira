@@ -5,6 +5,7 @@ body{
     margin:0;
     padding:0;
 }
+ /* Navbar started */
 .toolbox-container{
 height:6rem;
 background-color: grey;
@@ -58,11 +59,41 @@ align-items: center;
 .toolbox-container-color>*:hover,.action-btn-container>*:hover{
     background-color: #485460;
 }
+/* NavBar End */
 
+/* Modal started*/
 .modal-container{
     height:50vh;
     width:45vw;
     background-color: lightblue;
     position: absolute;
-    top:calc((100vh-50vh)/2)
+    top:calc((100vh - 50vh)/2);
+    left:calc((100vw - 45vw)/2); 
+    display:none;
+}
+textarea{
+    height: 100%;
+    width: 75%;
+    background-color:#dfe4ea;
+    font-size:2rem;
+    border:none;
+    outline:none;
+    resize:none;
+}
+.priority-color-container{
+    height: 100%;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #4b4b4b;
+}
+.priority-color{
+    height:10%;
+    width: 35%;
+}
+
+.active{
+    border:2px solid red;
 }
