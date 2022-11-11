@@ -95,5 +95,26 @@ textarea{
 }
 
 .active{
-    border:2px solid red;
+    border: 3px solid red;
+}
+/* Modal End */
+
+/* Ticket*/
+.ticket-container{
+    height:12rem;
+    width:15rem;
+    background-color: #485460;
+}
+.ticket-color{
+    height: 1rem;
+}
+.ticket-id{
+    height: 2rem;
+    background-color: red;
+}
+.task-area{
+    height:calc(100%- 1rem- 2rem);
+    font-size:1.5rem;
+    outline:none;
+    overflow-wrap: break-word;
 }
